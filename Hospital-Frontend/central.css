@@ -1,0 +1,229 @@
+
+
+  /*OLD SIGNUP PAGE (DO NOT REMOVE THIS)*/
+
+  * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+/* NEW LOGIN PAGE AND SIGNUP PAGE*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif
+ }
+
+ body {
+     background: #ecf0f3
+ }
+
+ .wrapper {
+     max-width: 350px;
+     min-height: 500px;
+     margin: 80px auto;
+     padding: 40px 30px 30px 30px;
+     background-color: #ecf0f3;
+     border-radius: 15px;
+     box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff
+ }
+
+ .logo {
+     width: 80px;
+     margin: auto
+ }
+
+ .logo img {
+     width: 100%;
+     height: 80px;
+     object-fit: cover;
+     border-radius: 50%;
+     box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7, -8px -8px 15px #fff
+ }
+
+ .wrapper .name {
+     font-weight: 600;
+     font-size: 1.4rem;
+     letter-spacing: 1.3px;
+     padding-left: 10px;
+     color: #555
+ }
+
+ .wrapper .form-field input {
+     width: 100%;
+     display: block;
+     border: none;
+     outline: none;
+     background: none;
+     font-size: 1.2rem;
+     color: #666;
+     padding: 10px 15px 10px 10px
+ }
+
+ .wrapper .form-field {
+     padding-left: 10px;
+     margin-bottom: 20px;
+     border-radius: 20px;
+     box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff
+ }
+
+ .wrapper .form-field .fas {
+     color: #555
+ }
+
+ .wrapper .btn {
+     box-shadow: none;
+     width: 100%;
+     height: 40px;
+     background-color: #03A9F4;
+     color: #fff;
+     border-radius: 25px;
+     box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+     letter-spacing: 1.3px
+ }
+
+ .wrapper .btn:hover {
+     background-color: #039BE5
+ }
+
+ .wrapper a {
+     text-decoration: none;
+     font-size: 0.8rem;
+     color: #03A9F4
+ }
+
+ .wrapper a:hover {
+     color: #039BE5
+ }
+
+ @media(max-width: 380px) {
+     .wrapper {
+         margin: 30px 20px;
+         padding: 40px 15px 15px 15px
+     }
+ }
+ /* HOME PAGE*/
+
+ .navbar {
+  background: #000000
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #fec400;
+  transition: 0.4s
+}
+
+.nav-item:hover::after {
+  width: 100%
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fec400
+}
+
+.nav-link {
+  padding: 25px 5px;
+  transition: 0.2s
+}
+
+body {
+    background-color: rgb(18, 52, 201)
+}
+
+/*user_service*/
+
+body {
+  background-color: #eee;
+  background-image: linear-gradient(to right top, #990404, #b4002e, #bf0064, #a700ab, #081df6)
+}
+
+.card {
+  border: none;
+  border-radius: 10px
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #69686a
+}
+/* BILLING AND CART*/
+.cart{
+background-color: #1d0df5;
+text-shadow: #081df6;
+}

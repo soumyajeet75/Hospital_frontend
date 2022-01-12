@@ -1,0 +1,140 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="central.css">
+    <link rel="stylesheet" href="billing.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+       
+        
+        .glow {
+          font-size: 80px;
+          color: #fff;
+          text-align: center;
+          animation: glow 1s ease-in-out infinite alternate;
+        }
+        
+        @-webkit-keyframes glow {
+          from {
+            text-shadow: 0 0 10px #fff, 0 0 20px rgb(255, 255, 255);
+          }
+          
+          to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #504dff;
+          }
+        }
+        </style>
+
+    <h1 class="glow">BILLING AND SELECTION CART</h1>
+  </head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <table class="table bg-white rounded border table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">SL.NO</th>
+                            <th scope="col">AVAILABLE SERVICE</th>
+                            <th scope="col">CODE</th>
+                            <th scope="col">PRICE</th>
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>COVID-19 VACCINE</td>
+                            <td>00</td>
+                            <td>800</td>
+                         
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>OXYGEN CYLINDER</td>
+                            <td>01</td>
+                            <td>500</td>
+                         
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>ICU BED</td>
+                            <td>02</td>
+                            <td>10000</td>
+                        
+                        </tr>
+                     
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+  
+      
+        <div class="boxes">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h1 class="cart">CART</h1>
+
+<table>
+  <tr>
+    <th>SERVICE</th>
+    <th>QTY</th>
+    <th>PRICE</th>
+  </tr>
+  <tr>
+    <td>COVID 19 VACCINE</td>
+    <td>2</td>
+    <td>1000</td>
+    <td><button>ADD</button></td>
+  </tr>
+  <tr>
+    <td>ICU BED</td>
+    <td>1</td>
+    <td>10000</td>
+    <td><button>ADD</button></td>
+  </tr>
+  
+</table>
+
+
+
+    </body>
+</html>

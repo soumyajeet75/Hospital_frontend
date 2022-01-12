@@ -1,0 +1,47 @@
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="central.css">
+    <style>
+        body {
+          background-color: rgb(144, 230, 74);
+          background-image: url('hospital3.jpg');
+          font-family: cursive;
+        }
+        
+        .glow {
+          font-size: 80px;
+          color: #fff;
+          text-align: center;
+          animation: glow 1s ease-in-out infinite alternate;
+        }
+        
+        @-webkit-keyframes glow {
+          from {
+            text-shadow: 0 0 10px #fff, 0 0 20px rgb(255, 255, 255);
+          }
+          
+          to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #504dff;
+          }
+        }
+        </style>
+  <h1 CLASS="glow">SIGN UP PAGE</h1>
+  </head>
+
+
+
+      <body>
+  
+
+        <div class="wrapper">
+          <div class="logo"> <img src="hospital.png" alt=""> </div>
+        
+          <form class="p-3 mt-3">
+              <div class="form-field d-flex align-items-center"> <span class="far fa-user"></span> <input type="text" name="userName" id="userName" placeholder="E-mail"> </div>
+              <div class="form-field d-flex align-items-center"> <span class="fas fa-key"></span> <input type="password" name="password" id="pwd" placeholder="Password"> </div> 
+              <div class="form-field d-flex align-items-center"> <span class="fas fa-key"></span> <input type="date" name="password" id="pwd" placeholder="D.O.B"> </div><button class="btn mt-3">SIGN UP</button> 
+          </form>
+      </div>
+      </body>
+  </form>
